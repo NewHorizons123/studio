@@ -1,11 +1,10 @@
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { GraduationCap, UsersRound, FileText, BotMessageSquare } from 'lucide-react';
+import { GraduationCap, UsersRound, FileText, BotMessageSquare, CalendarCheck2 } from 'lucide-react';
 import Link from 'next/link';
 
 const demoFeatures = [
@@ -13,25 +12,31 @@ const demoFeatures = [
     icon: <GraduationCap className="h-8 w-8 text-primary" />,
     title: 'AI Scholarship Finder',
     description: 'Discover global scholarships tailored to your academic field and personal profile.',
-    href: '#',
+    href: '/demo/scholarship-finder',
   },
   {
     icon: <UsersRound className="h-8 w-8 text-primary" />,
     title: 'Professor Connect',
     description: 'Find relevant professors and generate personalized outreach emails to build your network.',
-    href: '#',
+    href: '/demo/professor-connect',
   },
   {
     icon: <FileText className="h-8 w-8 text-primary" />,
     title: 'Document Assistant',
     description: 'Let AI help you write and refine your Statements of Purpose, CVs, and Motivation Letters.',
-    href: '#',
+    href: '/demo/document-assistant',
+  },
+    {
+    icon: <CalendarCheck2 className="h-8 w-8 text-primary" />,
+    title: 'Application Planner',
+    description: 'Get personalized timelines and visa checklists for your target countries and universities.',
+    href: '#', // TODO: Implement Application Planner page
   },
   {
     icon: <BotMessageSquare className="h-8 w-8 text-primary" />,
     title: 'AI Mentor Chat',
     description: 'Ask anything, from "Find me cybersecurity scholarships in Finland" to "Critique my SoP".',
-    href: '#',
+    href: '/demo/mentor-chat',
   },
 ];
 
@@ -57,7 +62,7 @@ export default function DemoPage() {
                 Start your journey with our powerful AI tools. Click on any feature to try a live demo.
               </p>
             </div>
-            <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {demoFeatures.map((feature, index) => (
                 <Link href={feature.href} key={index}>
                   <Card className="flex flex-col items-center text-center p-6 shadow-md hover:shadow-lg transition-shadow duration-300 h-full">
