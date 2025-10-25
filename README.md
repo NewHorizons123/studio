@@ -38,7 +38,7 @@ Whether you’re applying to the **USA, Canada, Italy, Australia, Finland, or Ne
 
 ---
 
-## Video
+## Video and Presentation Link
 
-Video Link: ""
+https://drive.google.com/drive/folders/13x42UCW4O9tZQ-tDbrtnDYNT3LT_Nh7J?usp=drive_link
 
