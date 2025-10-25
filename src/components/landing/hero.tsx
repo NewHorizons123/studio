@@ -29,7 +29,7 @@ export default function Hero() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" >
-              <Link href="#">Try the Demo</Link>
+              <Link href="/demo">Try the Demo</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground/10">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer">View on GitHub</a>
