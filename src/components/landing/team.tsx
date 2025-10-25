@@ -4,8 +4,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const teamMembers = [
   { name: 'Aadil Memon', role: 'AI Lead & Product Vision', imageId: 'aadil-memon' },
-  { name: '[Member 2 Name]', role: 'Full-Stack Developer', imageId: 'member-2' },
-  { name: '[Member 3 Name]', role: 'Frontend & UX Designer', imageId: 'member-3' },
+  { name: 'Mohammad Sufyan Ahmed', role: 'Full-Stack Developer', imageId: 'member-2' },
+  { name: 'Ahmed Muhammad Ali', role: 'Frontend & UX Designer', imageId: 'member-3' },
 ];
 
 export default function Team() {
