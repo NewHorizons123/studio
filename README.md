@@ -38,5 +38,7 @@ Whether you’re applying to the **USA, Canada, Italy, Australia, Finland, or Ne
 
 ---
 
-## 🗂️ Folder Structure  
+## Video
+
+Video Link: ""
 
