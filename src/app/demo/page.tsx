@@ -30,7 +30,7 @@ const demoFeatures = [
     icon: <CalendarCheck2 className="h-8 w-8 text-primary" />,
     title: 'Application Planner',
     description: 'Get personalized timelines and visa checklists for your target countries and universities.',
-    href: '#', // TODO: Implement Application Planner page
+    href: '/demo/application-planner',
   },
   {
     icon: <BotMessageSquare className="h-8 w-8 text-primary" />,
