@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract AI and education theme background",
+      "imageUrl": "https://images.unsplash.com/photo-1738082956242-d897b9177bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMG5ldHdvcmt8ZW58MHx8fHwxNzYxMjk3NDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract network"
+    },
+    {
+      "id": "aadil-memon",
+      "description": "Portrait of Aadil Memon",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxMzY4NDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "member-2",
+      "description": "Portrait of the Full-Stack Developer",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEzMjQyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "member-3",
+      "description": "Portrait of the Frontend &amp; UX Designer",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTM4NTI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    }
+  ]
 }
